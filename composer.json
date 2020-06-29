@@ -1,0 +1,26 @@
+{
+    "name": "alqudiry/laravel-terminal",
+    "description": "Terminal shell command in laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdullah Alqudiry",
+            "email": "abdullah.alqudiry@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alqudiry\\Terminal\\TerminalServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Alqudiry\\Terminal\\": "src"
+        }
+    }
+}
