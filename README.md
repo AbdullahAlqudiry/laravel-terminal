@@ -8,7 +8,7 @@ This package is copy of [MrJoshLab/laravel-terminal](https://github.com/MrJoshLa
 Via Composer
 
 ``` bash
-$ composer require josh/laravel-terminal
+$ composer require alqudiry/laravel-terminal
 ```
 
 ## Usage
